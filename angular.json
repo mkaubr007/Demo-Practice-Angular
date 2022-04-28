@@ -5,18 +5,8 @@
   "projects": {
     "my-first-project": {
       "projectType": "application",
-<<<<<<< HEAD
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        },
-        "@schematics/angular:application": {
-          "strict": true
-        }
-      },
-=======
+
       "schematics": {},
->>>>>>> 759218e (Basic setup practice)
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -29,20 +19,13 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-<<<<<<< HEAD
-            "inlineStyleLanguage": "scss",
-=======
->>>>>>> 759218e (Basic setup practice)
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-              "src/styles.scss"
-=======
+
               "src/styles.css"
->>>>>>> 759218e (Basic setup practice)
             ],
             "scripts": []
           },
@@ -51,15 +34,7 @@
               "budgets": [
                 {
                   "type": "initial",
-<<<<<<< HEAD
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
-=======
+
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 },
@@ -67,7 +42,6 @@
                   "type": "anyComponentStyle",
                   "maximumWarning": "6kb",
                   "maximumError": "10kb"
->>>>>>> 759218e (Basic setup practice)
                 }
               ],
               "fileReplacements": [
@@ -114,20 +88,12 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-<<<<<<< HEAD
-            "inlineStyleLanguage": "scss",
-=======
->>>>>>> 759218e (Basic setup practice)
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-              "src/styles.scss"
-=======
               "src/styles.css"
->>>>>>> 759218e (Basic setup practice)
             ],
             "scripts": []
           }
